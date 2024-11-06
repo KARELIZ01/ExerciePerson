@@ -17,11 +17,12 @@ public class Person {
         this.countryOfBirth = countryOfBirth;
         this.gender = gender;
     }
-    public void printInfo() {
+    
+	public void printInfo() {
         System.out.println("Name: " + firstName + " " + lastName);
         System.out.println("ID Number: " + idNumber);
         System.out.println("Birth Year: " + birthYear);
-        System.out.println("Country of Birth; " + countryOfBirth);
+        System.out.println("Country of Birth: " + countryOfBirth);
         System.out.println("Gender: " + gender);
     }
 
@@ -36,7 +37,7 @@ public class Person {
     }
 
 
-    public String getIdNumebeString(){
+    public String getIdNumberString(){
         return idNumber;
 
     }
